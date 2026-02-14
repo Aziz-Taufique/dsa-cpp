@@ -47,6 +47,12 @@ void fun(int n)
 // => loop will have only ascending phase but recursion will
 //    have both ascending and descending phase.
 
+// NOTE => size of stack n of int n.
+//         for n ther is n + 1 activation records.
+//         so total memory consume is O(n)
+//         recursive uses stack it is memory consuming fn.
+//         time complaxity is O(n);
+
 void fn()
 {
 }
