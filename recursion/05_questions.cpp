@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+// sum of first n natural number.
+// 1 + 2 + 3 + 4 + (n-1) + n;
+
 // tc = O(n)
 // sc = O(n)
 int sum(int n)
